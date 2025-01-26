@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finance Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Sidebar -->
+    <section class="sidebar">
+      <div class="logo">
+        <img src="financee.png" alt="Company Logo" class="logocomp">
+        <h3>Finance</h3>
+      </div>
+      <nav class="menus">
+        <ul>
+          <!-- Dashboard Dropdown -->
+          <li class="menu-item">
+            <input type="checkbox" id="dashboard-toggle" class="dropdown-toggle">
+            <label for="dashboard-toggle" class="dropbtn">
+              <img src="home-icon.jpg" alt="Home Icon" class="menu-icon"> 
+              Dashboard 
+              <img src="downarrow.png" alt="Dropdown Arrow" class="arrow-icon">
+            </label>
+            <ul class="dropdown-content">
+              <li><a href="#">Classic</a></li>
+              <li><a href="#">Minimal</a></li>
+            </ul>
+
+            <input type="checkbox" id="page-toggle" class="dropdown-toggle">
+            <label for="page-toggle" class="dropbtn">
+              <img src="pages1.jpg" alt="Pages Icon" class="menu-icon"> 
+              Pages 
+              <img src="downarrow.png" alt="Dropdown Arrow" class="arrow-icon">
+            </label>
+
+
+            <input type="checkbox" id="application-toggle" class="dropdown-toggle">
+            <label for="application-toggle" class="dropbtn">
+              <img src="applications.png" alt="Pages Icon" class="menu-icon"> 
+              Applications 
+              <img src="downarrow.png" alt="Dropdown Arrow" class="arrow-icon">
+            </label>
+
+            <input type="checkbox" id="ui-toggle" class="dropdown-toggle">
+            <label for="ui-toggle" class="dropbtn">
+              <img src="uicomp.png" alt="Pages Icon" class="menu-icon"> 
+              UI Component 
+              <img src="downarrow.png" alt="Dropdown Arrow" class="arrow-icon">
+            </label>
+
+            <input type="checkbox" id="widget-toggle" class="dropdown-toggle">
+            <label for="widget-toggle" class="dropbtn">
+              <img src="widget.png" alt="Pages Icon" class="menu-icon"> 
+              Widgets
+              <img src="downarrow.png" alt="Dropdown Arrow" class="arrow-icon">
+            </label>
+
+            <input type="checkbox" id="form-toggle" class="dropdown-toggle">
+            <label for="form-toggle" class="dropbtn">
+              <img src="forms.png" alt="Pages Icon" class="menu-icon"> 
+              Forms 
+              <img src="downarrow.png" alt="Dropdown Arrow" class="arrow-icon">
+            </label>
+
+            <input type="checkbox" id="chart-toggle" class="dropdown-toggle">
+            <label for="chart-toggle" class="dropbtn">
+              <img src="charts.jpg" alt="Pages Icon" class="menu-icon"> 
+              Charts 
+              <img src="downarrow.png" alt="Dropdown Arrow" class="arrow-icon">
+            </label>
+          </li>
+
+          
+          
+
+        </ul>
+      </nav>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <header>
+        <input type="text" placeholder="Search here..." class="search-bar">
+        <div class="icons">
+          <img src="notif.png" alt="Notification" class="notification">
+          <img src="mes.png" alt="Messages" class="messages">
+          <img src="profile-pic.jpeg" alt="Profile Picture" class="profile-pic">
+        </div>
+      </header>
+
+      <!-- Dashboard Cards -->
+      <section class="cards">
+        <div class="card blue">
+          <h3>Total Income</h3>
+          <p>$579,000</p>
+          <span>Saved 25%</span>
+        </div>
+        <div class="card light-blue">
+          <h3>Total Expenses</h3>
+          <p>$79,000</p>
+          <span>Saved 25%</span>
+        </div>
+        <div class="card purple">
+          <h3>Cash on Hand</h3>
+          <p>$92,000</p>
+          <span>Saved 25%</span>
+        </div>
+        <div class="card green">
+          <h3>Net Profit Margin</h3>
+          <p>$179,000</p>
+          <span>Saved 65%</span>
+        </div>
+      </section>
+
+
+      <!-- Charts Section -->
+      <section class="charts">
+        <div class="chart">
+          <h3>AP and AR Balance</h3>
+          <div class="graph">
+            <img src="apandar.png" alt="Chart Image" class="chart-img">
+          </div>
+        </div>
+        <div class="donut-chart">
+          <h3>% of Income Budget</h3>
+          <img src="67.jpg" alt="Income Budget Image" class="donut-img">
+          <a href="#" class="summary-link">View Full Report</a>
+          
+        </div>
+        <div class="donut-chart">
+          <h3>% of Expenses Budget</h3>
+          <img src="48.png" alt="Income Budget Image" class="donut-img">
+          <a href="#" class="summary-link">View Full Report</a>
+          
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
